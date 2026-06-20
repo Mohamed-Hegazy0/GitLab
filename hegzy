@@ -1,0 +1,11 @@
+sudo dnf install git -y
+git --version
+mkdir GitLab
+cd GitLab
+git init
+nano hegazy
+git add hegazy
+git commit -m "Add hegazy file"
+git remote add origin https://github.com/Mohamed-Hegazy0/REPOSITORY.git
+git branch -M main
+git push -u origin main
